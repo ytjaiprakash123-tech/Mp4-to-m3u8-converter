@@ -1,5 +1,17 @@
-"dependencies": {
-  "express": "^4.18.2",
-  "axios": "^1.6.0",
-  "fluent-ffmpeg": "^2.1.2"
+{
+  "name": "mp4-to-m3u8-converter",
+  "version": "1.0.0",
+  "description": "Stream converter for MP4 to M3U8",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "fluent-ffmpeg": "^2.1.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
